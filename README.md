@@ -130,6 +130,7 @@ Initializes a new instance of the CMDBApi class.
 - **Parameters:**
   - `username` (str): The username for authentication.
   - `password` (str): The password for authentication.
+  - `verify` (Optional[bool]): Certificate verification. Defaults to True.
   - `timeout` (Optional[int]): The timeout for API requests. Defaults to 30 seconds.
   - `debug` (bool): If set to `True`, enables detailed HTTP request and response logging.
   - `base_url` (str): The base URL for the CMDBuild REST API. Defaults to the provided URL.

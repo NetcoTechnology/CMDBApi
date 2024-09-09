@@ -22,6 +22,7 @@ class CMDBApi:
         password: str,
         base_url: str,
         timeout: Optional[int] = 30,
+        verify: bool = True,
         debug: bool = False
     ):
         self.username = username
@@ -31,6 +32,7 @@ class CMDBApi:
         self.session = requests.Session()
         self.session_id = None
         self.debug = debug
+        self.session.verify = verify
         if self.debug:
             # Enable HTTP request & response logging
             self.session.hooks['response'] = [self.log_response]

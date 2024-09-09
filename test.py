@@ -20,6 +20,7 @@ api = CMDBApi(
     username=username,
     password=password,
     base_url=base_url,
+    verify=False,
     debug=True
 )
 
