@@ -20,10 +20,9 @@ class CMDBApi:
         self,
         username: str,
         password: str,
+        base_url: str,
         timeout: Optional[int] = 30,
-        debug: bool = False,
-        base_url: str
-
+        debug: bool = False
     ):
         self.username = username
         self.password = password
