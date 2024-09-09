@@ -49,7 +49,7 @@ api.get("classes/Internet/cards", params={"filter": '{"query":"Y2011238244"}'})
 
 filter specific fields  
 ```python
-api.get("classes/Internet/cards",params={"filter": '{"attribute":{"and":[{"simple":{"attribute":"Code","operator":"equal","parameterType":"fixed","value":["Y2011238244"],"category":null,"model":null}}]}}'})
+api.get("classes/Internet/cards", params={"filter": '{"attribute":{"and":[{"simple":{"attribute":"Code","operator":"equal","parameterType":"fixed","value":["Y2011238244"],"category":null,"model":null}}]}}'})
 ```
 
 

@@ -58,5 +58,5 @@ def create_internet_card(partner, description):
     else:
         return None
 
-code = create_internet_card(partner="Netco Technology B.V.", description="test internet card")
-print(code)
+#code = create_internet_card(partner="Netco Technology B.V.", description="test internet card")
+#print(code)
