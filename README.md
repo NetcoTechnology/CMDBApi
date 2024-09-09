@@ -108,7 +108,7 @@ def create_internet_card(partner, description):
     else:
         return None
 
-code = create_internet_card(partner="Netco Technology B.V.", description="jelletest6")
+code = create_internet_card(partner="Netco Technology B.V.", description="test internet card")
 print(code)
 ```
 
